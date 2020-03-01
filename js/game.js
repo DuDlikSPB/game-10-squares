@@ -5,7 +5,7 @@ let hits = 1;
 let firstHitTime = 0;
 
 function restart() {
-  hits = 0;
+  hits = 1;
   console.log('рестарт');
   $('.col').removeClass("miss");
   $('.col').removeClass("target");
